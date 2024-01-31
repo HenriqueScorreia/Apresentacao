@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+    
+}
+body * {
+    font-family: 'Bebas Neue', sans-serif;
+    color: whitesmoke;
+}
+#container {
+    width: 320px;
+    margin: auto; 
+    padding: 0 24px;
+    
+}
+#profile {
+    text-align: center;
+    padding: 10px;
+}
+#profile img {
+    width: 120px;
+}
+#profile p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0px;
+    
+}
+ul{
+    list-style: none;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+}
+ul li a{
+    border: 0.5px solid rgba(21, 3, 14, 6.8);
+    border-style: inset;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 25px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.5s;
+    
+}
+ul li a:hover {
+    background-color: rgb(109, 13, 199);
+    border: 2.5px solid rgb(236, 233, 238);
+}
+#social-links {
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 18px;
+    line-height: 11px;
+    
+    
+}
+#social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+#social-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 16px;
+    
+}
+footer{
+    padding: 24px 0;
+    text-align: center;
+    font-size: 18px;
+}
